@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Prova 2 - SW2</title>
+        <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="CSS/bootstrap.css">
+    </head>
+    <body>
+
+        <div id="perguntaEntrada">
+            <h1 class="tituloPrincipal">Bem vindo</h1>
+            <h2 class="tituloSecundario">Clique no botão para ver os meus jogos favoritos</h2>
+            <button id="botaoEntrar" type="button" class="btn btn-outline-light">Entrar</button>
+        </div>
+
+        <div id="conteudo" class="row">
+            <div class="coluna">
+                <div data-toggle="modal" data-target="#modalWitcher">
+                    <img id="witcher" src="IMG/witcher.png" alt="Bruxão" height="400px" width="300px">
+                    <h4>The Witcher 3</h4>
+                </div>
+                <div data-toggle="modal" data-target="#modalWarframe">
+                    <img id="warframe" src="IMG/warframe.jpg" alt="Robos" height="400px" width="300px">
+                    <h4>Warframe</h4>
+                </div>
+                <div data-toggle="modal" data-target="#modalDestiny">
+                    <img id="destiny" src="IMG/destiny.jpg" alt="Luz" height="400px" width="300px">
+                    <h4>Destiny 2</h4>
+                </div>
+                <div data-toggle="modal" data-target="#modalFarcry">
+                    <img id="farcry" src="IMG/farcry.jpg" alt="America" height="400px" width="300px">
+                    <h4>Far Cry 5</h4>
+                </div>
+            </div>
+            <div class="coluna">
+                <div data-toggle="modal" data-target="#modalNioh">
+                    <img id="nioh" src="IMG/nioh.jpg" alt="Japão" height="400px" width="300px">
+                    <h4>Nioh</h4>
+                </div>
+                <div data-toggle="modal" data-target="#modalMonster">
+                    <img id="monster" src="IMG/monster.jpg" alt="Monstros" height="400px" width="300px">
+                    <h4>Monster Hunter World</h4>
+                </div>
+                <div data-toggle="modal" data-target="#modalSouls">
+                    <img id="souls" src="IMG/souls.png" alt="Morte" height="400px" width="300px">
+                    <h4>Dark Souls 3</h4>
+                </div>
+                <div data-toggle="modal" data-target="#modalBorderlands">
+                    <img id="borderlands" src="IMG/borderlands.jpg" alt="Loot" height="400px" width="300px">
+                    <h4>Borderlands 3</h4>
+                </div>
+            </div>
+        </div>
+
+        <div id="modais">
+            <div class="modal fade" id="modalWitcher" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">Informativo</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Genero</h5>
+                            <p>RPG, Mundo Aberto, Historia e Fantasia</p>
+                            <h5>Adicionais</h5>
+                            <p>Enquanto a guerra assola todos os Reinos do Norte, você enfrenta o maior conflito de sua vida: ir em busca da criança da profecia, uma arma senciente capaz de alterar o mundo.</p>
+                            <p>The Witcher: Wild Hunt é um RPG de mundo aberto de fantasia cheio de escolhas vitais. Em The Witcher, você joga como um caçador de monstros profissional, Geralt de Rívia, em busca da criança da profecia em um vasto mundo aberto, rico em cidades mercantis, ilhas piratas, passagens perigosas nas montanhas e cavernas esquecidas a serem exploradas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalWarframe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">Informativo</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Genero</h5>
+                            <p>RPG, Looter, Tiro e Ação</p>
+                            <h5>Adicionais</h5>
+                            <p>Warframe é um jogo de ação free-to-play online em um mundo de ficção científica. Acompanhe os seus amigos em ataques jogar vs inimigos através do sistema solar e maximize os poderes dos Warframes. Permaneça sozinho ou lute junto contra inimigos que ameaçam o seu mundo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalDestiny" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">Informativo</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Genero</h5>
+                            <p>FPS, RPG, Ação, Looter e Multijogador</p>
+                            <h5>Adicionais</h5>
+                            <p>Mergulhe na experiência gratuita de Destiny 2 e vivencie combates de tiro em primeira pessoa. Explore os mistérios do nosso sistema solar, personalize seus Guardiões com equipamentos singulares, e libere habilidades elementares contra poderosos inimigos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalFarcry" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">Informativo</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Genero</h5>
+                            <p>Mundo Aberto, Ação, FPS, Cooperativo, RPG e Tiro</p>
+                            <h5>Adicionais</h5>
+                            <p>Welcome to Hope County, Montana, home to a fanatical doomsday cult known as Eden’s Gate. Stand up to cult leader Joseph Seed & his siblings, the Heralds, to spark the fires of resistance & liberate the besieged community.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalNioh" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">Informativo</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Genero</h5>
+                            <p>Ação, Souls-like e RPG</p>
+                            <h5>Adicionais</h5>
+                            <p>Prepare sua espada: combates intensos estão em todos os cantos desse RPG de ação que se passa em uma região devastada pela guerra civil. Para sair vitorioso, será preciso ter paciência, descobrir os pontos fortes de cada inimigo (humano ou demônio) e atacar seus pontos fracos na hora certa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalMonster" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">Informativo</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Genero</h5>
+                            <p>Cooperativo, Multijogador, Ação, Mundo Aberto, RPG e Looter</p>
+                            <h5>Adicionais</h5>
+                            <p>Conheça o Novo Mundo! Em Monster Hunter: World, o jogo mais recente da série, você pode curtir a experiência máxima de caçada, usando tudo à sua disposição para caçar monstros em um novo mundo repleto de surpresas e emoções.</p>
+                            <p>Como caçador, você aceitará missões para caçar monstros em uma variedade de habitats.
+                                Vença esses monstros e receba materiais que você pode usar para criar armas e armaduras mais fortes e caçar monstros ainda mais perigosos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalSouls" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">Informativo</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Genero</h5>
+                            <p>Fantasia Sombria, RPG e Atmosferico</p>
+                            <h5>Adicionais</h5>
+                            <p>DARK SOULS™ continua a ultrapassar seus próprios limites em um ambicioso novo capítulo da série que definiu um gênero e que é aclamada pela crítica. Prepare-se para abraçar a escuridão!</p>
+                            <p>Com o fogo se apagando e o mundo caindo em ruínas, você precisa se aventurar em um universo repleto de inimigos e ambientes colossais. Jogadores entrarão em um mundo de trevas e atmosfera épica, com uma jogabilidade mais ágil e combates mais intensos.
+                                Agora só restam cinzas... Prepare-se para abraçar a escuridão mais uma vez!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalBorderlands" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">Informativo</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Genero</h5>
+                            <p>Cooperativo, RPD, FPS e Looter</p>
+                            <h5>Adicionais</h5>
+                            <p>O jogo de tiro original está de volta, com milhões de armas e uma aventura cheia de destruição! Acabe com novos mundos e inimigos com um dos quatro novos Vault Hunters. Jogue sozinho ou com amigos para enfrentar inimigos insanos, conseguir um monte de itens e salvar seu lar dos líderes cultistas mais cruéis da galáxia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="JS/jQuery.js"></script>
+        <script src="JS/bounce/bounce.js"></script>
+        <script src="JS/bootstrap.js"></script>
+        <script src="JS/main.js"></script>
+    </body>
+</html>
